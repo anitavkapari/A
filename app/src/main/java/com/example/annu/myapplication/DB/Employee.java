@@ -1,6 +1,10 @@
 package com.example.annu.myapplication.DB;
 
 public class Employee {
+    public void setId(int id) {
+        this.id = id;
+    }
+
     private int id;
     private String name;
     private  String address;
